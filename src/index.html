@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pigeons</title>
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    
+    <div id='pigeon-header'>
+      <img src="https://www.pestprofessionals.co.uk/wp-content/uploads/2015/06/Pigeon-Control-Banner.jpg" alt="pigeon-header">
+    </div>
+    <div class="head-buttons">
+    <p style='text-align:center; width: 50%; align-content: center;' ><button id='new-pigeon-btn'>Add a new pigeon</button></p>
+
+    <div class="container">
+      <form class="pigeon-form" style="">
+        <h3>Create a pigeon</h3>
+
+        <input type="text" name="name" value="" placeholder="Name" class="input-text" id="new-name">
+        <br>
+        <input type="text" name="image" value="" placeholder="Image URL" class="input-text" id="new-img">
+        <br>
+        <input type="checkbox" name="eatsTrash" value="" id="eats-trash"> Eats Trash<br>
+        <input type="submit" name="submit" value="Create New Pigeon" class="submit"> 
+      </form>
+    </div>
+    
+    <p style='text-align:center; width: 50%;' ><button id="eats-trash-filter"></button>
+    </div>
+
+
+    <div id="pigeon-collection">
+    </div>
+
+    <script type="text/javascript" src="Z.basics.js"></script>
+  </body>
+</html>
